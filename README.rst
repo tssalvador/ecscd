@@ -40,3 +40,14 @@ it in here_.
 Hope you enjoy it!
 
 .. _here: https://aws.amazon.com/ecs/
+
+----
+
+I still need to improve this package a lot! Here are the top changes I have
+in my list to be deployed in the next weeks:
+
+- Document the code;
+- Support Python 3 (currently this only runs on Python 2.7);
+- Detail the configuration steps (yes, we have a config file);
+- Create the test case and automate it in Travis.ci;
+- Improve this readme file;
