@@ -6,11 +6,11 @@ def readme():
 
 setup(name='ecscd',
       version='0.1',
-      description='ECS application deploy manage',
+      description='Command line application and library to assist on continuous delivery for Amazon AWS\' EC2 Container Service',
       packages=['ecscd'],
-      url='http://www.ebanx.com',
+      url='https://github.com/egonbraun/ecscd',
       author='Egon Braun',
-      author_email='ops@ebanx.com',
+      author_email='egon@ohbyteme.com',
       entry_points={
           'console_scripts': ['ecscd=ecscd.ecscd:main'],
       },
